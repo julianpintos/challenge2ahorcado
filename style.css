@@ -1,0 +1,138 @@
+/* 
+RESET advice by:
+https://piccalil.li/blog/a-modern-css-reset/ 
+*/
+  
+/* Box sizing rules 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*/
+/* Remove default margin */
+body,
+h1,
+h2,
+canvas,
+div{
+  margin: 0;
+}
+
+
+/* make form elements easier to work with */
+
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+/*  min-height: 100vh;*/
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+
+
+:root{
+   
+text-align: center;
+background: black;
+background-image: url(background.png);
+
+
+}
+
+input,
+button{
+  font-family: Prompt;
+  text-align: center;
+}
+.titulo {
+  padding: 15px;
+  min-width: 30vw;
+  margin: 9% 0 30px;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 7vw;
+  letter-spacing:  7px;
+  color: #5ce1e6;
+
+}
+
+.boton {
+  border: 0;
+  background-color: #a6d0e4;
+  color: black;
+  font-weight: bold;
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+  border-radius: 0.5em;
+
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 2px solid #5ce1e6;
+  display: block;
+  padding: 0.5em;
+  width: 30%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #030e12;
+  text-size: auto;
+  color: white;
+}
+
+#container-interaccion{
+  /*display: flex;
+  justify-content: center;*/
+  align-items: center;
+}
+
+.container{
+  position: relative;
+
+ /* text-align: center;*/
+}
+
+
+#canvas-ahorcado{
+  position: absolute;
+  display: block;
+  margin: 5%;
+  font-family: Prompt;
+  /*border-radius: 0.5em;
+  border: 5px solid rgba(5, 0, 0, 0.9);*/
+}
+
+#cartel-error{
+  position: relative;
+  display:block;
+  top: 200px;
+  left: 600px;
+  min-width: 30vw;
+  min-height: 0.5em;
+  padding: 10px; 
+  padding-top: 30px;
+  padding-left: 30px;
+  text-align: start;
+  font-size: 1.5em;
+  color: white;
+  font-family: Prompt;
+  
+  /*border-radius: 0.5em;
+  border: 5px solid rgba(5, 0, 0, 0.9);*/
+}
+
+.oculto{
+
+}

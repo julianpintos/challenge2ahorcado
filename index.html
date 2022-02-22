@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Juego del ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+   
+  </head>
+  <body>
+    <div >
+      <h1 class="titulo">Juego del ahorcado</h1>
+    </div>
+    <div id="container-interaccion">
+      <button class="boton" id="iniciar-juego">INICIAR JUEGO</button>
+        <button class="boton" id="nueva-palabra">AGREGAR PALABRA</button> 
+        <input class="text-input" type="text" id="input-nueva-palabra" placeholder="Escriba una nueva palabra"> 
+
+    </div>
+    <div class="container">
+      <canvas id="canvas-ahorcado" height="800px" width="1200px"></canvas>
+      <div id="cartel-error"></div>
+    </div>
+    <script type="text/javascript" src="canvas.js"></script>
+    <script type="text/javascript" src="inicio-juego.js"></script>
+  </body>
+</html>
